@@ -1,0 +1,195 @@
+body {
+    vertical-align: text-bottom;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+html {
+    background-color: #212326;
+    background-image: url("images/BeefBackground.jpg");
+    background-size:cover;
+    scroll-padding-block: 4rem;
+      
+}
+
+
+#mainDiv {
+    color: #fff2f2ef;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 8;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+
+#logo {
+    height: 35vh;
+    vertical-align: top;
+    border-style: none;
+    box-sizing: border-box;
+   
+      
+    
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    #mainDiv {
+        color: #ffffffef;
+        top: 60%;
+        left: 50%;
+        bottom: 136%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 8;
+        align-items: center;
+        justify-content: center;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #logo {
+        height: 125px;
+        vertical-align: middle;
+        position: relative;
+   
+    }
+}
+#MainText {
+    color: #fdfdfdef;
+    text-align: center !important;
+    font-family: "Andale Mono"
+}
+
+
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    font-family: "Andale Mono";
+    letter-spacing:-2x;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+
+span {
+    
+     font-size: 1rem;
+     font-weight: 500;
+        font-family: "Andale Mono";
+     letter-spacing:-2x;
+    line-height: 1.2;
+}
+
+h2 { 
+font-size: 1rem;
+}
+
+#bio-text {
+    font-size: 0.9rem;
+}
+
+
+div.image-1{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+}
+
+
+div.gallery {
+    
+  margin: 5px;
+  display: flex;
+  justify-content: 'space-around';
+  align-items: 'center';
+  width: 500px;
+    padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fdfdfdef;
+    font-family: "Andale Mono";
+    letter-spacing:-7x;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+div.fa-links {
+    
+    display: block;
+    font-size: 32px;
+    text-align: center;
+  padding-top: -42px;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 8px;
+  font-size: 1rem;  
+  width: 46px;
+  text-align: center;
+    justify-content: center;
+  text-decoration: none;
+  
+}
+
+/* hover effect  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Insta */
+.fa-instagram {
+  color: white; 
+}
+
+/* bandcamp */
+.fa-bandcamp {
+  color: white; 
+}
+
+/* YouTube */
+.fa-youtube {
+  color: white; 
+}
+
+
+div.footer-text {
+     color: #fdfdfdef;
+    text-align: center !important;
+    font-family: "Andale Mono";
+    font-size: 0.7rem;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
