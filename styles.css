@@ -9,7 +9,7 @@ body {
 
 html {
     background-color: #212326;
-    background-image: url("images/BeefBackground.png");
+    background-image: url("BeefBackground.png");
     background-size:cover;
     scroll-padding-block: 4rem;
       
