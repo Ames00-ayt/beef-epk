@@ -184,6 +184,16 @@ div.fa-links {
   color: white; 
 }
 
+div.contact { 
+    font-size: 0.7rem;
+     font-weight: 500;
+        font-family: "Andale Mono";
+     letter-spacing:-2x;
+    line-height: 1.2;
+    text-align: center !important;
+    padding-top: 1rem;
+       
+}
 
 div.footer-text {
      color: #fdfdfdef;
